@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar target/spring-mvc-helloworld-example.war
+web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/*.war
