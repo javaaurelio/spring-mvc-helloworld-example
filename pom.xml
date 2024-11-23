@@ -8,6 +8,17 @@
 	<name>spring-mvc-helloworld-example Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 
+	<plugins>
+    <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+        <configuration>
+            <mainClass>com.explorejava.springmvc.javaconfig.ApplicationConfigurerAdapter</mainClass>
+            <layout>JAR</layout>
+        </configuration>
+    </plugin>
+</plugins>
+
 
 	<dependencies>
 		<dependency>
